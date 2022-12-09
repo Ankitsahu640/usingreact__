@@ -1,0 +1,165 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cards{
+    border: 0.1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 0px 0.1px 8px rgb(205, 203, 203);
+}
+
+.nav-link{
+    margin: 0px 7px;
+}
+.active-n{
+    font-weight: 700;
+    border-bottom: 3px solid #1ddeba;
+}
+.secondnav{
+    padding-left:20rem;
+}
+
+.six-icon{
+    margin-top:1rem;
+}
+.six-icon p{
+    font-size: smaller;
+    color:rgb(166, 164, 164)
+}
+.six-icon div{
+    font-size:x-large;
+    position: relative;
+    top:-18px;
+}
+.six-icon div span{
+    font-size: small;
+    color:rgb(166, 164, 164)
+}
+
+.othercards{
+    min-width:350px;
+    margin:10px;
+    height:fit-content;
+}
+.new-users{
+    margin:10px;
+}
+.new-users span{
+    margin-left: 10px;
+    font-size: medium;
+    font-weight: 600;
+    color:rgb(90, 87, 87)
+}
+.new-users span span{
+    font-size: x-small;
+    color: rgb(253, 252, 252);
+}
+.newUsers{
+    margin:10px;
+} 
+/* .newUsers div{
+    height: 30px;
+    width:30px;
+} */
+.newUsers span {
+    margin-left: 10px;
+    font-size: large;
+    background-color:"grey";
+    border-radius:"3px"
+}
+.newUsers span div{
+    color: grey;
+    font-size: x-small;
+    position: relative;
+    top:-4px;
+}
+
+.sellCourse-list{
+    max-width: 212px;
+    color: rgb(22, 182, 209);
+    font-size: 0.85rem;
+    padding: 5px;
+}
+.sellCourse-date{
+    color:gray ;
+    font-size:x-small ;
+    position: relative;
+    top:10px;
+    right:-20px;
+}
+
+.trial{
+    font-size: large;
+    margin:10px 10px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.trialCircle{
+    background-color: #1ddeba;
+    color:white;
+    border: 2px solid white;
+    border-radius: 90px;
+    padding:10px;
+    margin: 8px 0px 0px 20px ;
+    height: 90px;
+    width: 90px;
+    box-shadow: 0px 0.1px 8px rgb(125, 124, 124);
+}
+.trialCircle h4{
+    position: relative;
+    left: 19px;
+    top:5px;
+}
+.trialCircle span{
+    font-weight: 600;
+    font-size: x-small;
+    position:relative;
+    top:-10px;
+    left:8px;
+}
+.upgradebtn{
+    position: relative;
+    left:225px;
+    padding: 8px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    background-color: #ff00cb
+}
+.contactbtn{
+    position: relative;
+    left:140px;
+    font-size: medium;
+    background-color:#1ddeba;
+    font-weight: normal;
+    margin-top: 6px;
+}
+
+.modalbtn{
+    background-color: rgb(29, 222, 186);
+    margin-right: 25px;
+    color: white;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.modal{
+    --bs-modal-width: 850px;
+}
+.module-form{
+    margin: 15px;
+}
+
+.modal-input{
+    margin:20px;
+}
+.modal-slide{
+    font-size: medium;
+    margin-top: 10px;
+}
+.modal-slide input{
+    width:300px;
+    color:#1ddeba
+}
